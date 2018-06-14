@@ -55,8 +55,29 @@ header .top-header-right {
 	height: 30px;
 	width: auto;
 }
-#
-
+header ul li {
+	float: left;
+	list-style-type: none;
+	display: inline;
+	position: relative;
+	padding: 0 15px;
+	left: 155px;
+	top: -10px;
+	font-size: 13px;
+}
+.bottom-header-center {
+	position: relative;
+	left: 120px;
+}
+header ul li a {
+	color: #808080;
+}
+#highlighted {
+	border-bottom: solid 3px #0066ff;
+	padding-bottom: 15px;
+	color: #0066ff;
+	font-weight: bold;
+}
 
 
 

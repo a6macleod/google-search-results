@@ -116,9 +116,9 @@ small, small ul li a {
 #websitesetup {
 	position: relative;
 	left: 150px;
-	border: solid 1px black;
+	border: solid 1px #999999;
 	padding: 25px 35px;
-	width: 550px;
+	width: 600px;
 }
 #websitesetup ol li, #websitesetup ul li {
 	padding: 3px;
@@ -131,6 +131,12 @@ small ul {
 small ul li {
 	display: inline-block;
 	padding-left: 30px;
+}
+
+#websitesetup ol, #websitesetup ul, #websitesetup small	 {
+	display: block;
+	margin: 10px;
+
 }
 
 

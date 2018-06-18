@@ -156,16 +156,79 @@ small ul li {
 	font-weight: normal;
 }
 
-.main-results .date {
-	display: inline;
+.main-results .sneakpeak {
+	font-size: 13px;
+	color: #595959;
+	margin-top: 2px;
+}
+
+.main-results .sneakpeak .date {
+	color: #999999;
+}
+
+#related-searches {
+	position: relative;
+	top: 70px;
+	left: 165px;
+}
+
+#related-searches h1 {
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#related-searches ul {
+	list-style-type: none;
+	columns: 2;
+	width: 30%;
+}
+#related-searches ul li {
+	margin: 5px;
+}
+#related-searches ul li a {
+	color:#0000cc;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#related-searches ul li a:hover {
+		text-decoration: underline;
 }
 
 
+/* Next Page Icons */
+.next-page {
+	position: relative;
+	left: 300px;
+	top: 100px;
+}
 
+.next-page #google-next-page {
+	color:#6666ff;
+}
 
+.next-page #google-next-page #red {
+	color: #ff3333;
+}
 
+.next-page #google-next-page #yellow {
+	color: #e6e600;
+}
 
+.next-page #google-next-page #green {
+	color: #5cd65c;
+}
 
+.next-page .next-page-list {
+	list-style-type: none;
+}
+
+.next-page .next-page-list li {
+	display: inline;
+	padding: 5px;
+	font-size: 13px;
+}
 
 
 

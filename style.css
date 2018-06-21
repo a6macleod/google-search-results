@@ -192,7 +192,8 @@ small ul li {
 	font-size: 14px;
 }
 
-#related-searches ul li a:hover {
+#related-searches ul li a:hover, 
+.next-page .next-page-list li a:hover {
 		text-decoration: underline;
 }
 
@@ -230,6 +231,49 @@ small ul li {
 	font-size: 13px;
 }
 
+.next-page .next-page-list li a {
+	color: #0000cc;
+ }
+
+ #next {
+ 	margin-left: 45px;
+ }
+	
+footer {
+	background-color: #f1f1f1;
+	border: solid 1px #d9d9d9;
+	width: 100%;
+	height: 75px;
+	position: relative;
+	top: 140px;
+}
+footer p {
+	position: relative;
+	left: 175px;
+	top: 5px;
+	color: #b3b3b3;
+	font-size: 13px;
+}
+
+footer a {
+color: #808080;
+}
+footer a:hover {
+	color: #333333;
+}
+
+footer ul li {
+	list-style-type: none;
+	display: inline;
+	position: relative;
+	top: 20px;
+	left: 155px;
+}
+
+footer ul li a {
+	font-size: 13px;
+	padding-left: 20px;
+}
 
 
 
